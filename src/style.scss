@@ -1,7 +1,10 @@
+@import "styles/utils/styles";
+
 body {
-	background-color: black;
-	p {
-		color: white;
+	background-color: red;
+    
+    p {
+		color: $color-link;
 		padding-left: 1rem;
 	}
 }
