@@ -1,0 +1,9 @@
+.header {
+    background-color: #bce4fa;
+
+    &__topbar {
+        background-color: #00497b;
+        color: $color-white;
+        font-size: map-get($font-size, 5);
+    }
+}

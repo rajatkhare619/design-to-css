@@ -1,7 +1,8 @@
 @import "styles/utils/styles";
+@import "styles/base/styles";
+@import "styles/components/styles";
 
 body {
-	background-color: blue;
     
     p {
 		color: $color-link;

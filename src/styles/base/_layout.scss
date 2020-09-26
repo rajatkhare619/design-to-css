@@ -1,0 +1,7 @@
+.wrapper {
+    max-width: $content-width;
+    margin: 0 auto;
+    padding-left: map-get($spacing, base);
+    padding-right: map-get($spacing, base);
+    position: relative;
+}

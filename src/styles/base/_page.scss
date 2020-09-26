@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    color: $color-text;
+    line-height: map-get($line-height, base);
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    *,
+    &:before,
+    &:after {
+        box-sizing: border-box;
+    }
+}
