@@ -5,5 +5,55 @@
         background-color: #00497b;
         color: $color-white;
         font-size: map-get($font-size, 5);
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.topbar {
+
+    &__claim {
+        padding: map-get($spacing, 1) 0;
+    }
+
+    &__nav {
+        display: flex;
+
+        .link {
+            color: $color-white;
+            display: inline-block;
+            padding: map-get($spacing, 1) 2rem;
+            border-left: 1px solid #5b83ae;
+
+            &:first-child {
+                border-left: none;
+            }
+        }
+    }
+}
+
+.site {
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        padding: map-get($spacing, base) 0 2rem;
+    }
+
+    &-logo {
+
+        img {
+            height: 3.8rem;
+        }
+    }
+
+    &-search {
+
+        input {
+            width: 17.2rem;
+        }
     }
 }

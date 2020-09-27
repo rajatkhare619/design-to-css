@@ -1,0 +1,21 @@
+.site-nav {
+    padding-bottom: map-get($spacing, 1);
+
+    li {
+        display: inline-block;
+        padding: 1rem map-get($spacing, base) map-get($spacing, base);
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+
+    .link {
+        color: $color-link-secondary;
+        font-size: map-get($font-size, 4);
+
+        &:hover {
+            color: $color-link-secondary-hover;
+        }
+    }
+}
