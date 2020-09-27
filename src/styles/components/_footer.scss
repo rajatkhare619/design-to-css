@@ -1,0 +1,49 @@
+.footer {
+    background-color: $color-text-dark;
+    font-size: 1.4rem;
+    margin-top: map-get($spacing, 7);
+
+    .link {
+        color: #aabacc;
+
+        &:hover {
+            color: #667990;
+        }
+    }
+
+    &-nav {
+        display: flex;
+        margin: 0 8.33333%;
+        padding: 3.6rem 0;
+
+        &__block {
+            flex: 0 0 25%;
+            max-width: 25%;
+            width: 25%;
+        }
+
+        h4 {
+            color: $color-white;
+            font-size: map-get($font-size, 4);
+            font-weight: map-get($font-weight, semibold);
+            margin-top: 0;
+        }
+
+        &__links {
+
+            li {
+                padding-bottom: map-get($spacing, 3);
+            }
+        }
+    }
+}
+
+.breadcrumbs {
+    border-bottom: 1px solid #404c5a;
+    padding: map-get($spacing, 4);
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}
