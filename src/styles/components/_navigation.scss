@@ -13,7 +13,7 @@
 
     .link {
         color: $color-link-secondary;
-        font-size: map-get($font-size, 4);
+        font-size: map-get($font-size, base);
 
         &:hover {
             color: $color-link-secondary-hover;

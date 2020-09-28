@@ -24,7 +24,7 @@
 
         h4 {
             color: $color-white;
-            font-size: map-get($font-size, 4);
+            font-size: map-get($font-size, base);
             font-weight: map-get($font-weight, semibold);
             margin-top: 0;
         }
