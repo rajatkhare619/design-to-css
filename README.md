@@ -9,6 +9,6 @@ In order to have working project, please make sure that you have git and NodeJS 
 
 Source files are located in "src" folder, designs with specification in "_designs" folder. Please feel free to add any files, folders, code, variables, etc. to keep the code as cleanest as possible and as structured as possible and the final result should as close to the design as possible.
 
-Your HTML will go to "index.html" to <main> element.
+Your HTML will go to "index.html" to "main" element.
 
 Good luck!
