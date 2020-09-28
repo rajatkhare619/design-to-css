@@ -13,13 +13,24 @@
 
     &-nav {
         display: flex;
+        flex-wrap: wrap;
         margin: 0 8.33333%;
         padding: 3.6rem 0;
 
+        @media screen and (min-width: 768px) {
+            flex-wrap: initial;
+        }
+
         &__block {
-            flex: 0 0 25%;
-            max-width: 25%;
-            width: 25%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            width: 100%;
+
+            @media screen and (min-width: 768px) {
+                flex: 0 0 25%;
+                max-width: 25%;
+                width: 25%;
+            }
         }
 
         h4 {
@@ -30,6 +41,11 @@
         }
 
         &__links {
+            display: none;
+
+            @media screen and (min-width: 768px) {
+                display: block;
+            }
 
             li {
                 padding-bottom: map-get($spacing, 3);
@@ -43,7 +59,24 @@
     padding: map-get($spacing, 4);
 
     &__inner {
-        display: flex;
-        justify-content: space-between;
+
+        @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .link {
+            display: block;
+            padding-bottom: map-get($spacing, 2);
+            text-align: center;
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+
+            @media screen and (min-width: 768px) {
+                padding-bottom: 0;
+            }
+        }
     }
 }
