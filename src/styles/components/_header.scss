@@ -4,7 +4,12 @@
     &__topbar {
         background-color: #00497b;
         color: $color-white;
+        display: none;
         font-size: map-get($font-size, 5);
+
+        @media screen and (min-width: 768px) {
+            display: block;
+        }
 
         .wrapper {
             display: flex;
@@ -44,16 +49,69 @@
     }
 
     &-logo {
+        max-width: calc(100% - 80px);
+
+        a {
+            display: block;
+        }
 
         img {
             height: 3.8rem;
+            max-width: 100%;
         }
     }
 
     &-search {
+        display: none;
+
+        @media screen and (min-width: 768px) {
+            display: block;
+        }
 
         input {
             width: 17.2rem;
         }
+    }
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    display: block;
+    padding: map-get($spacing, $key: 2);
+    position: absolute;
+    right: 1rem;
+    top: 2.4rem;
+
+    span {
+        display: block;
+        position: relative;
+
+        &,
+        &:before,
+        &:after {
+            background-color: #00385f;
+            border-radius: .4rem;
+            height: .4rem;
+            width: 2.5rem;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            transform: translateY(-.8rem);
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            transform: translateY(.8rem);
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        display: none;
     }
 }

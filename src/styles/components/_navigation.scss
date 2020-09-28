@@ -1,7 +1,12 @@
 .site-nav {
+    display: none;
     overflow: hidden;
     padding-bottom: map-get($spacing, 1);
     white-space: nowrap;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
 
     li {
         display: inline-block;
