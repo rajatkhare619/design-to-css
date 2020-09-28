@@ -1,7 +1,7 @@
 # ui-ux-engineer-exercise
 Welcome to 3rd round of UI/UX Engineer job role interview.
 
-In this part we would like to see your knowledge of HTML/CSS/SCSS and you will be coding according to provided designs and design specifications.
+In this part we would like to see your knowledge of HTML/CSS/SCSS and you will be coding according to provided designs and design specifications (your task is to create the main "middle" part between aready existing header and footer).
 
 Exercise is hosted on github, please create a branch with your name based on master branch and pull it.
 
