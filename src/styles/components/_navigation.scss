@@ -1,6 +1,7 @@
 .site-nav {
     overflow: hidden;
     padding-bottom: map-get($spacing, 1);
+    white-space: nowrap;
 
     li {
         display: inline-block;
