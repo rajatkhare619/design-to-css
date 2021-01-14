@@ -11,6 +11,8 @@ Source files are located in "src" folder, designs with specification in "_design
 
 Your HTML will go to "index.html" to "main" element.
 
+2nd part of this exercise will be about creating the design/wireframe/sketch according to a description you can find in 'Exercise-part-2' folder. You can use your favorite desgining tool, even if it is just a paper and pencil :)
+
 Good luck!
 
 Design specifications from design file:
