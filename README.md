@@ -4,11 +4,11 @@ In this part we would like to see your **knowledge of HTML/(S)CSS** and your tas
 
 Exercise is hosted on github, please create a branch with your name (e.g. john-doe) and checkout master branch into it.
 
-## Project setup :computer:
+## :computer:  Project setup
 
 In order to have the project running, please **make sure that you have git and NodeJS (version 10+) installed**. After the checkout, please run `npm install` first and then the only thing you need to do is start a `start:dev` script ("webpack-dev-server") that handles HTML and SASS compilation and also do a live reload. Project page can be reached on `localhost:8080`.
 
-## Project structure :open_file_folder:
+## :open_file_folder:  Project structure
 
 Source files are located in "src" folder, designs with specification in "_designs" folder. Please feel free to add any additional files, folders, code, variables, etc. you need to have the final result as close to the design as possible. There are already some SASS variables in place, please feel free to use them or extend them to your needs.
 
@@ -16,14 +16,15 @@ Your HTML will go to `index.html` to `<main id="content">` element.
 
 **Good luck :crossed_fingers: and happy coding :sunglasses: !** 
 
-## Design specifications :book:
+## :book:  Design specifications
 
 #### Section with title
 
 Property | Desktop | Mobile
 ------------ | ------------ | -------------
-Background | #e6ebf0
+Background | #e6ebf0 | #e6ebf0
 Headline | black | black
+Text | black | black
 
 #### Box/Card
 
@@ -40,12 +41,16 @@ Image area | 260x369px and rounded corners | full width, 185px fixed height and 
 Headline | 18px semibold and #313a45
 Link | underlined on hover (2px line) with link color | link color
 
-Section with theme:
+#### Button
 
-paragraph text: #000
-outline button color: #000
-outline button border: #000
-text link color: #000
+Property | Desktop | Mobile
+------------ | ------------ | -------------
+Color | black | black
+Border | black | black
+Font size | default button size | default button size
+
+
+Section with theme:
 
 section vertical spacing 72px
 
