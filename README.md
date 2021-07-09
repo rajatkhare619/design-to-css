@@ -18,13 +18,16 @@ Your HTML will go to `index.html` to `<main id="content">` element.
 
 ## :book:  Design specifications
 
+In designs, there are texts in german language, but you can replace them with some dummy text, lorem ipsum, or create them by your own.
+
 #### Section with title
 
 Property | Desktop | Mobile
 ------------ | ------------ | -------------
 Background | #e6ebf0 | #e6ebf0
-Headline | black | black
-Text | black | black
+Headline | font size 32px, font weight light, color black  | font size 24px, font weight light, color black
+Text | font-size 16px, font-weight regular, color black | font-size 16px, font-weight regular, color black
+Spacing | top and bottom 72px | top and bottom 72px
 
 #### Box/Card
 
@@ -38,7 +41,9 @@ Shadow | 2px blur, 1px spread, black color with 10% opacity | no shadow
 Rounded corners | 4px | no rounded corners
 Background | white, while hovering changes to #f5f8fa | transparent
 Image area | 260x369px and rounded corners | full width, 185px fixed height and rounded corners
-Headline | 18px semibold and #313a45
+Headline | 18px semibold, color #313a45 | 18px semibold, color black
+Content | font size 14px, color #2d3c4a | font size 14px, color black
+Content spacing | inner spacing 24px | no left and right spacing
 Link | underlined on hover (2px line) with link color | link color
 
 #### Button
@@ -48,29 +53,3 @@ Property | Desktop | Mobile
 Color | black | black
 Border | black | black
 Font size | default button size | default button size
-
-
-Section with theme:
-
-section vertical spacing 72px
-
-Section typography:
-
-headline:  32px light, bottom margin
-36px, mobile 24px font-size 
-paragraph: 16px regular
-
-Box/Card:
-
-space between boxes: 30px
-
-text part: inner
-padding 24px, on mobile and no padding on left
-and right side
-
-box/card headline: bottom margin: 24px 
-
-box/card content text: color #58646f 14px
-regular
-
-link: 14px regular #0078b4
