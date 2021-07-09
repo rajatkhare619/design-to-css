@@ -2,7 +2,7 @@
 
 In this part we would like to see your **knowledge of HTML/(S)CSS** and your task will be to code a part of the website according to provided designs and design specifications (your task is to create the main "middle" part between aready existing header and footer) for desktop :desktop_computer: and mobile :iphone:
 
-Exercise is hosted on github, please create a branch with your name (e.g. john-doe) and checkout master branch into it.
+Exercise is hosted on github, please clone the project to your local environment and when you are finished, please push the project to your private github repository with granting access to one of our colleagues (will be specified).
 
 ## :computer:  Project setup
 
