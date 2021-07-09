@@ -1,4 +1,4 @@
-# Welcome to the 2nd round of Frontend Developer job role interview.
+# Welcome to the 2nd round of Frontend Developer job role interview
 
 In this part we would like to see your **knowledge of HTML/(S)CSS** and your task will be to code a part of the website according to provided designs and design specifications (your task is to create the main "middle" part between aready existing header and footer).
 
@@ -10,11 +10,14 @@ In order to have the project running, please **make sure that you have git and N
 
 ## Project structure
 
-Source files are located in "src" folder, designs with specification in "_designs" folder. Please feel free to add any files, folders, code, variables, etc. to keep the code as cleanest as possible and as structured as possible and the final result should as close to the design as possible. You can use all the variables that are already in place.
+Source files are located in "src" folder, designs with specification in "_designs" folder. Please feel free to add any additional files, folders, code, variables, etc. you need to have the final result as close to the design as possible. There are already some SASS variables in place, please feel free to use them or extend them to your needs.
 
-Your HTML will go to "index.html" to "main" element.
+Your HTML will go to `index.html` to `<main id="content">` element.
 
 **Good luck!** :crossed_fingers:
+
+## Design specifications
+
 
 Design specifications from design file:
 

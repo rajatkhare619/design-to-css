@@ -4,7 +4,7 @@ input {
         border: 1px solid #adbcce;
         border-radius: $border-radius;
         box-shadow: rgba($color-black, .1) 0 .2rem .5rem -.1rem inset;
-        color: $color-text-dark;
+        color: $color-title;
         font-size: map-get($font-size, special);
         line-height: map-get($line-height, base);
         padding: 0.9rem 3.6rem 0.8rem 1.4rem;
