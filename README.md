@@ -6,7 +6,7 @@ Exercise is hosted on github, please clone the project to your local environment
 
 ## :computer:  Project setup
 
-In order to have the project running, please **make sure that you have git and NodeJS (version 10+) installed**. After the checkout, please run `npm install` first and then the only thing you need to do is start a `start:dev` script ("webpack-dev-server") that handles HTML and SASS compilation and also do a live reload. Project page can be reached on `localhost:8080`.
+In order to have the project running, please **make sure that you have git and NodeJS (version 10+) installed**. After the checkout, please run `npm install` first and then the only thing you need to do is start a script with `npm run start:dev` that handles HTML and SASS compilation and also do a live reload. Project page can be reached on `localhost:8080`.
 
 ## :open_file_folder:  Project structure
 
