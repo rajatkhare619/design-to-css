@@ -14,7 +14,7 @@ Source files are located in "src" folder, designs with specification in "_design
 
 Your HTML will go to `index.html` to `<main id="content">` element.
 
-**Good luck :crossed_fingers: and happy coding :sunglasses: !** 
+**Good luck :crossed_fingers: and happy coding!** :sunglasses:
 
 ## :book:  Design specifications
 
